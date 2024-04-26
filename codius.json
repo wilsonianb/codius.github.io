@@ -1,0 +1,11 @@
+{
+  "$schema": "https://codius.org/schema/manifest/v1",
+  "routes": {
+    "/assets": "static:./assets/",
+    "/css": "static:./css/",
+    "/docs": "static:./docs/",
+    "/fonts": "static:./fonts/",
+    "/favicon.ico": "static:./favicon.ico",
+    "=/": "static:./index.html"
+  }
+}
